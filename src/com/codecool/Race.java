@@ -49,4 +49,16 @@ public class Race {
         }
         return false;
     }
+
+    public void printRaceResults(){
+        for (Truck truck: trucks){
+            System.out.println("Name: "+ truck.getName()+" Distance traveled:" +truck.getDistanceTraveled() +" Type: "+ truck.getClass().getName());
+        }
+        for (Car car: cars){
+            System.out.println("Name: "+ car.getName()+" Distance traveled:" +car.getDistanceTraveled() +" Type: "+ car.getClass().getName());
+        }
+        for (Motorcycle motorcycle: motorcycles){
+            System.out.println("Name: "+ motorcycle.getName()+" Distance traveled:" +motorcycle.getDistanceTraveled() +" Type: "+ motorcycle.getClass().getName());
+        }
+    }
 }

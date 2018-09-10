@@ -15,7 +15,7 @@ public class Truck extends Vehicle{
     public Truck(){
         breakdownTurnsLeft = 0;
         Random rn = new Random();
-        name = String.valueOf(rn.nextInt(1001));
+        name = String.valueOf(rn.nextInt(901)+100);
         speed = 100;
     }
 

@@ -8,6 +8,6 @@ public class TheBigRace {
         Race race = new Race();
         race.createVehicles();
         race.simulateRace();
-
+        race.printRaceResults();
     }
 }

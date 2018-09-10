@@ -13,4 +13,15 @@ public class Vehicle {
         this.distanceTraveled += speed;
     }
 
+    public String getName(){
+        return name;
+    }
+
+    public Integer getDistanceTraveled() {
+        return distanceTraveled;
+    }
+
+    public Integer getSpeed() {
+        return speed;
+    }
 }
